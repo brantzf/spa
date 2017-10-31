@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SPA Chapter1</title>
+    <title>SPA Starter</title>
     <link rel="stylesheet" type="text/css" href="css/spa.css">
+    <link rel="stylesheet" type="text/css" href="css/spa.shell.css">
     <script src="js/jq/jquery.min.js"></script>
+    <script src="js/jq/jquery.uriAnchor.js"></script>
     <script src="js/spa.js"></script>
+    <script src="js/spa.shell.js"></script>
     <script>
-        // Start spa once DOM is ready
         $(function() {
             spa.initModule($('#spa'))
         })
     </script>
 </head>
 <body>
-    <div id="spa">
-        <div class="spa-slider"></div>
-    </div>
+    <div id="spa"></div>
 </body>
 </html>
